@@ -13,6 +13,7 @@
 }
 
 .nav-main {
+  position: relative;
   ul {
     a {
       text-transform: uppercase;
@@ -22,5 +23,12 @@
         weight: 700;
       };
     }
+  }
+  .link-decoration {
+    position: absolute;
+    bottom: -5px;
+    background: #fff;
+    height: 2px;
+    width: 10px;
   }
 }
