@@ -5,13 +5,13 @@
 //@import 'motion-ui';
 
 @include foundation-global-styles;
-// @include foundation-grid;
+//@include foundation-grid;
 @include foundation-flex-grid;
 //@include foundation-xy-grid-classes;
 //@include foundation-typography;
 //@include foundation-button;
 //@include foundation-forms;
-// @include foundation-range-input;
+//@include foundation-range-input;
 //@include foundation-accordion;
 //@include foundation-accordion-menu;
 //@include foundation-badge;
@@ -43,15 +43,15 @@
 //@include foundation-tooltip;
 //@include foundation-top-bar;
 @include foundation-visibility-classes;
-// @include foundation-float-classes;
+//@include foundation-float-classes;
 @include foundation-flex-classes;
 
-// @include foundation-prototype-classes;
+//@include foundation-prototype-classes;
 
 //@include motion-ui-transitions;
 //@include motion-ui-animations;
 
-@import "components/fa";
+@import "../../../node_modules/font-awesome/scss/font-awesome";
 @import "components/common";
 @import "components/header";
 @import "components/nav";
